@@ -16,7 +16,7 @@ export default function Custom404() {
                     {user ? 'Dashboard' : 'Home'}
                 </Button>
             </Link>
-            <Link href="https://discord.gg/Axe86YdNYF">
+            <Link href="https://discord.gg/image">
                 <Button icon={<QuestionOutlined />}>
                     Need some assistance?
                 </Button>
