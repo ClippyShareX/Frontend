@@ -9,7 +9,7 @@ export default function Settings() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Dny Settings</title>
+                <title>Clippy Settings</title>
             </Head>
 
             <Navbar enabled="settings" />
