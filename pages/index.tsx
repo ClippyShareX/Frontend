@@ -204,8 +204,8 @@ export default function Index({ code }) {
         <div className={styles.container}>
             <Head>
                 <title>dny.wtf</title>
-                <meta name="og:title" content="Dny, private file host."/>
-                <meta name="og:description" content="Dny is a simple and powerful file hosting platform, with great support, competent developers, and a welcoming community."/>
+                <meta name="og:title" content="Clippy, a private file host."/>
+                <meta name="og:description" content="Clippy is a simple and powerful file hosting platform, with great support, competent developers, and a welcoming community."/>
                 <meta name="theme-color" content="#39e66a" />
             </Head>
 
@@ -276,7 +276,7 @@ export default function Index({ code }) {
                             },
                         },
                     }} />
-                <h2>dny.wtf</h2>
+                <h2>clippy.gg</h2>
                 <h3>A private image uploader, for uploading pictures, gifs and more!</h3>
                 <div style={{ marginTop: '8px' }}>
                     <Button
