@@ -14,7 +14,7 @@ export default function ShortenC() {
 
     const initialState = {
         selectedDomain: {
-            name: domains.find((d) => d.name === user.settings.domain.name) ? user.settings.domain.name : 'i.dny.wtf',
+            name: domains.find((d) => d.name === user.settings.domain.name) ? user.settings.domain.name : 'i.clippy.gg',
             wildcard: domains.find((d) => d.name === user.settings.domain.name) ? domains.find((d) => d.name === user.settings.domain.name).wildcard : false,
             subdomain: user.settings.domain.subdomain !== '' && user.settings.domain.subdomain !== null ? user.settings.domain.subdomain : '',
         },
