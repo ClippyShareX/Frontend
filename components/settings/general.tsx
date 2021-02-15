@@ -281,7 +281,7 @@ export default function General() {
                     </span>
                 </Button>
                 <Button
-                    href={"https://www.icloud.com/shortcuts/a45e807b561a48b7802303eca0cd86d9"}
+                    href={"https://www.icloud.com/shortcuts/74ef1315b15d4b6397cdc6108af61d2b"}
                     className={styles.btn}
                     icon={<DownloadOutlined style={{ paddingTop: '3px' }} />}
                 >
