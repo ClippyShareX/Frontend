@@ -16,7 +16,7 @@ export default function Domains() {
         userOnly: false,
         domain: '',
         selectedDomain: {
-            name: 'i.dny.wtf',
+            name: 'i.clippy.gg',
             wildcard: false,
             subdomain: '',
         },
