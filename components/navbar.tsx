@@ -82,7 +82,9 @@ export default function Navbar({ enabled }: { enabled: 'home' | 'settings' | 'up
                 <Button
                     type="text"
                     onClick={() => router.push('/dashboard')}>
-                    <h2>clippy</h2>
+                    <h2 style={{
+                        marginTop: '0.5rem',
+                    }}>clippy</h2>
                 </Button>
             </div>
 
