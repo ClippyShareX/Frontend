@@ -203,7 +203,7 @@ export default function Index({ code }) {
     return (
         <div className={styles.container}>
             <Head>
-                <title>dny.wtf</title>
+                <title>Clippy.gg</title>
                 <meta name="og:title" content="Clippy, a private file host."/>
                 <meta name="og:description" content="Clippy is a simple and powerful file hosting platform, with great support, competent developers, and a welcoming community."/>
                 <meta name="theme-color" content="#39e66a" />
