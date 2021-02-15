@@ -289,7 +289,7 @@ export default function Index({ code }) {
                     <Button
                         style={{ marginRight: '5px', borderRadius: '13px', height: '35px' }}
                         shape="round"
-                        onClick={() => window.location.href='https://discord.gg/img'}
+                        onClick={() => window.location.href='https://discord.gg/image'}
                     >
                         Discord Server
                     </Button>
