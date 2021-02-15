@@ -34,7 +34,7 @@ export default function Verify() {
             <h2>Thank you for registering, just one last step!</h2>
 
             <p className={styles.caption}>
-                Please link your Discord account to dny, this is to verify your identity and join the Discord server.
+                Please link your Discord account to Clippy, this is to verify your identity and join the Discord server.
             </p>
 
             <div className={styles.buttons}>
