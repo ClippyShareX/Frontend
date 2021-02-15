@@ -1,0 +1,154 @@
+.navbar {
+  overflow: auto;
+  padding: 0 0px;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  cursor: pointer;
+  height: 38px;
+  margin-top: 13px;
+  padding-left: 12px;
+  padding-right: 5px;
+}
+
+.navbarCon {
+  float: left;
+  margin-top: 10px;
+  width: calc(100% - 150px);
+}
+
+.navbarCon .left {
+  float: left;
+}
+
+.navbarCon .right {
+  float: right;
+}
+
+.navButton {
+  height: 60px;
+  margin-top: -8px;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-right: 10px;
+}
+
+.navButtonActive {
+  font-weight: 600;
+  border-color: white;
+}
+
+.logoutButton {
+  margin-right: -33px;
+  background-color: rgb(39, 39, 39);
+  border: none;
+  font-size: 15px;
+  height: 40px;
+  margin-top: 1px;
+  border-radius: 5px;
+}
+
+.avatarImg {
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.avatarUsername { 
+  font-size: 16px;
+  margin-right: 3px;
+  margin-top: 1.5px;
+}
+
+.barsCon {
+  margin-right: -32px;
+  border: none;
+  float: right;
+  height: 32px;
+  padding: 6px;
+  margin-top: 8px;
+  display: none;
+  background: none;
+  border-color: rgb(221, 221, 221);
+}
+
+.barsCon>span {
+  display: block;
+}
+
+.barsBtn {
+  display: block;
+  width: 20px;
+  height: 1.5px;
+  background: #ffffff;
+  position: relative;
+}
+
+.barsBtn:after,
+.barsBtn:before {
+  content: attr(x);
+  width: 20px;
+  position: absolute;
+  top: -6px;
+  left: 0;
+  height: 1.5px;
+  background: #ffffff;
+}
+
+.barsBtn:after {
+  top: auto;
+  bottom: -6px;
+}
+
+@media (max-width: 767px) {
+  .barsCon {
+    display: inline-block;
+  }
+
+  .left,
+  .right {
+    display: none;
+  }
+
+  .navbarCon {
+    margin-top: 7px;
+  }
+
+  .navbarCon .ant-menu-item,
+  .navbarCon .ant-menu-submenu-title {
+    padding: 1px 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo img {
+    margin-bottom: 2px;
+  }
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item,
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-submenu {
+  display: inline-block;
+  width: 100%;
+}
+
+.ant-drawer-body .ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-drawer-body .ant-menu-horizontal>.ant-menu-item:hover {
+  border-bottom-color: transparent;
+}
+
+.ant-drawer-body {
+  padding: 0;
+}

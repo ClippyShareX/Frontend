@@ -1,0 +1,103 @@
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	color: rgb(214, 214, 214);
+	flex-direction: column;
+}
+
+.page {
+  animation: fadeInAnimation ease .32s;
+	animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page .section {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: rgb(19, 19, 19);
+}
+
+.title {
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.accountInput {
+  margin-bottom: 14px;
+}
+
+.changeBtn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.btnContainer {
+  display: flex;
+  margin-top: 8px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.btnContainer .btn {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.changeCon {
+  margin-top: -3px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .btnContainer {
+    flex-direction: column;
+  }
+
+  .btnContainer .btn {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .page .section {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+  }
+
+  .accountInput {
+    width: 250px;
+  }
+
+  .btnContainer .btn {
+    width: 250px;
+  }
+}

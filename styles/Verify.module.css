@@ -1,0 +1,40 @@
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.container {
+	animation: fadeInAnimation ease .32s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	text-align: center;
+	min-height: 100vh;
+	padding: 0 0.5rem;
+	display: flex;
+	color: rgb(214, 214, 214);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.caption {
+	font-size: 20px;
+	margin-top: -5px;
+}
+
+.buttons {
+	margin-top: -2px;
+}
+
+.discordIcon {
+	margin-right: 8px;
+	margin-bottom: -2.5px;
+}
+
+.logoutButton {
+	margin-right: 5px;
+}

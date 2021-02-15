@@ -1,0 +1,16 @@
+name = "staging"
+type = "webpack"
+account_id = "1e99e6e55f30c0e4ba921899cc59a6b8"
+workers_dev = true
+zone_id = "97910e8a69deccde8a51f3ec099b328a"
+
+[site]
+bucket = "./out"
+entry-point = "workers-site"
+
+[env.production]
+name = "frontend"
+route = "dny.wtf/*"
+kv_namespaces = [
+  { binding = "dny", id = "167324c725c744e499bc4286932af09f" }
+]

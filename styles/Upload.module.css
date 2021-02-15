@@ -1,0 +1,102 @@
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	color: rgb(214, 214, 214);
+	flex-direction: column;
+}
+
+.page {
+  animation: fadeInAnimation ease .32s;
+	animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page .section {
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: rgb(19, 19, 19);
+}
+
+.title {
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.domainInput {
+  margin-top: -5px;
+  width: 30%;
+}
+
+.domainDropdown {
+  width: 200px;
+}
+
+.switchContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  padding-bottom: 10px;
+}
+
+.switchInput {
+  display: flex;
+}
+
+@media only screen and (max-width: 1639px) {
+  .domainInput {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1267px) {
+  .domainInput {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .domainInput {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .domainInput {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .domainDropdown {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .page .section {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+  }
+}

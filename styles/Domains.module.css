@@ -1,0 +1,98 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  background: rgb(19, 19, 19);
+}
+
+.title {
+  font-size: 26px;
+  margin-top: 14px;
+}
+
+.caption {
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+.btn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+
+.domainInput {
+  margin-top: 14px;
+  width: 30%;
+  margin-bottom: 18px;
+}
+
+.domainDropdown {
+  width: 200px;
+}
+
+.randomDomainContainer {
+  display: flex;
+  margin-top: 4px;
+}
+
+.trashBtn {
+  margin-top: 3px;
+  margin-left: 4px;
+  line-height: 1;
+  height: 20px !important;
+}
+
+@media only screen and (max-width: 1639px) {
+  .domainInput {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1267px) {
+  .domainInput {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 1065px) {
+  .domainInput {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .domainInput {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .domainDropdown {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .section {
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .randomDomainContainer {
+    justify-content: center;
+  }
+}
