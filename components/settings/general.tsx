@@ -19,7 +19,7 @@ export default function General() {
 
     const initialState = {
         selectedDomain: {
-            name: domains.find((d) => d.name === domain.name) ? domain.name : 'i.dny.wtf',
+            name: domains.find((d) => d.name === domain.name) ? domain.name : 'i.clippy.gg',
             wildcard: domains.find((d) => d.name === domain.name) ? domains.find((d) => d.name === domain.name).wildcard : false,
             subdomain: domain.subdomain !== '' && domain.subdomain !== null ? domain.subdomain : '',
         },
