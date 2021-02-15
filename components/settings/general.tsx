@@ -277,7 +277,7 @@ export default function General() {
                     icon={<DownloadOutlined style={{ paddingTop: '3px' }} />}
                 >
                     <span style={{ paddingTop: '2px' }}>
-                            Download Sharex Config
+                            Download ShareX Config
                     </span>
                 </Button>
                 <Button
@@ -286,7 +286,7 @@ export default function General() {
                     icon={<DownloadOutlined style={{ paddingTop: '3px' }} />}
                 >
                     <span style={{ paddingTop: '2px' }}>
-                            Download IOS Shortcut
+                            Download iOS Shortcut
                     </span>
                 </Button>
             </div>
