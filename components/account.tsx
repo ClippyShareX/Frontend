@@ -367,7 +367,7 @@ export default function Account() {
                             onChange={(val: any) => {
                                 val = val.target.value;
 
-                                if (val.trim().length > 30) return;
+                                if (val.trim().length > 42) return;
 
                                 setState((state) => ({
                                     ...state,
@@ -397,7 +397,7 @@ export default function Account() {
                             onChange={(val: any) => {
                                 val = val.target.value;
 
-                                if (val.trim().length > 30) return;
+                                if (val.trim().length > 42) return;
 
                                 setState((state) => ({
                                     ...state,
@@ -421,7 +421,7 @@ export default function Account() {
                             onChange={(val: any) => {
                                 val = val.target.value;
 
-                                if (val.trim().length > 30) return;
+                                if (val.trim().length > 42) return;
 
                                 setState((state) => ({
                                     ...state,
