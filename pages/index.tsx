@@ -337,9 +337,9 @@ export default function Index({ code }) {
                                         rules={[
                                             {
                                                 required: true,
-                                                message: 'Provide a valid password (up to 42 characters)',
+                                                message: 'Provide a valid password (up to 100 characters)',
                                                 min: 5,
-                                                max: 42,
+                                                max: 100,
                                             },
                                         ]}
                                     >
@@ -419,9 +419,9 @@ export default function Index({ code }) {
                                         rules={[
                                             {
                                                 required: true,
-                                                message: 'Provide a valid password (up to 42 characters)',
+                                                message: 'Provide a valid password (up to 100 characters)',
                                                 min: 5,
-                                                max: 42,
+                                                max: 100,
                                             },
                                         ]}
                                     >
