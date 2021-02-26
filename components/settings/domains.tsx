@@ -148,6 +148,7 @@ export default function Domains() {
             title: 'Name',
             dataIndex: 'name',
             key: 'name',
+            sorter: (a: { name: string; }, b: { name: string; }) => { return a.name.localeCompare(b.name)},
         },
         {
             title: 'Wildcard',
