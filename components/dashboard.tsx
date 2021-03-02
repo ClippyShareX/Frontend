@@ -122,7 +122,7 @@ export default function Dashboard() {
                 <span
                     className={`ant-btn-link ${styles.actionBtn}`}
                     onClick={() => {
-                        navigator.clipboard.writeText(`https://clippy.gg/?code=${record._id}`);
+                        navigator.clipboard.writeText(`https://clippy.gift/${record._id}`);
 
                         notification.success({
                             message: 'Success',
